@@ -1,4 +1,5 @@
 // Abstract away all IndexedDB mess into clean async functions.
+/**
 function openDB():
     if DB exists return connection
     else create DB named "salesDB"
@@ -20,3 +21,6 @@ function getAllSales():
 function clearSales():
     openDB()
     clear object store
+
+*/
+
